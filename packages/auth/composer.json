@@ -1,0 +1,25 @@
+{
+    "name": "phynix/auth",
+    "description": "Feramy Authentication Package",
+    "authors": [
+      {
+        "name": "Phynix Media ltd",
+        "email": "david.adebayo@phynixmedia.co.uk"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Auth\\App\\":"src"
+      }
+    },
+    "extra": {
+      "laravel":{
+        "providers":[
+          "AuthenticationServiceProvider"
+        ]
+      }
+    }
+  }
+  

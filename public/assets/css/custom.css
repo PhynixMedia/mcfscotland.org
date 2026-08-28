@@ -1,0 +1,34 @@
+/*
+ * MCF Scotland — site specific overrides.
+ * Loaded last, after the template stylesheets.
+ *
+ * BRAND PALETTE (navy)
+ * --------------------------------------------------------------------------
+ * The template shipped five demo accent colours. This build uses the
+ * "protein" demo, whose accent was cyan #00b0d5, with an orange gradient
+ * (#ff5600 -> #ffa705) on the shared base components.
+ *
+ * Those have been rewritten in place inside style.css / responsive.css to:
+ *
+ *     #12294b   navy       primary — buttons, links, active nav, headings accent
+ *     #1e4a87   navy light secondary — gradient partner, hovers
+ *     #eef3fa   navy tint  pale wash behind imagery (was #edf8ff)
+ *
+ * Cyan was also baked into several flat PNGs, which were hue-shifted to match:
+ *     img/banner/protein_banner_bg.png
+ *     img/images/choose_img_shape.png
+ *     img/brand/s_brand_logo01..06.png
+ *     img/icon/features_icon01..06.png
+ *
+ * So to re-skin the site, change those values in style.css / responsive.css
+ * and re-run the same hue shift over that image list.
+ *
+ * LOGO
+ * --------------------------------------------------------------------------
+ * img/logo/mcf_logo.png        navy artwork — white backgrounds (header, off-canvas)
+ * img/logo/mcf_logo_white.png  white artwork — dark backgrounds (mobile menu)
+ * Both are the supplied MCF mark, trimmed to its ink bounds. The template
+ * constrains them via .logo img (154px) and .nav-logo img (150px).
+ */
+
+/* Nothing to override at present — the palette lives in the files above. */

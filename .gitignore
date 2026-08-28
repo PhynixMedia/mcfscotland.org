@@ -1,0 +1,16 @@
+.idea/php.xml
+.idea/web.iml
+.vscode
+.DS_Store
+.idea/
+storage/logs/
+public/storage
+# storage/files
+# storage/framework/
+vendor/
+composer.lock
+.phpunit.result.cache
+/.phpunit.cache
+.env
+.env.backup
+.env.*.local
