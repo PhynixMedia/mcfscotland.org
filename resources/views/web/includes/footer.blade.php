@@ -1,5 +1,5 @@
 <!-- footer-area -->
-<footer id="contact" class="footer-area protein-footer">
+<footer class="footer-area protein-footer">
 <div class="footer-top-wrap">
         <div class="container">
             <div class="row justify-content-between">
@@ -22,13 +22,14 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                     <div class="footer-widget">
                         <div class="fw-title">
-                            <h5>Partner</h5>
+                            <h5>Partner With Us</h5>
                         </div>
                         <div class="fw-link">
                             <ul>
-                                <li><a href="#sponsor" class="section-link">Sponsorship</a></li>
-                                <li><a href="#sponsor" class="section-link">Advertise With Us</a></li>
-                                <li><a href="#sponsor" class="section-link">Volunteer</a></li>
+                                <li><a href="#contact" class="section-link">Sponsor The Festival</a></li>
+                                <li><a href="#contact" class="section-link">Advertise In The Programme</a></li>
+                                <li><a href="#contact" class="section-link">Volunteer</a></li>
+                                <li><a href="#contact" class="section-link">Minister With Us</a></li>
                                 <li><a href="#faq" class="section-link">Before You Come</a></li>
                             </ul>
                         </div>
@@ -62,11 +63,11 @@
                                 <li><i class="fal fa-map-marked-alt"></i> Edinburgh, Scotland</li>
                             </ul>
                         </div>
-                        <div class="fw-btn">
+                        <div class="fw-social">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>

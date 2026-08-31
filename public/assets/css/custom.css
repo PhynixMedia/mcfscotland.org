@@ -32,3 +32,89 @@
  */
 
 /* Nothing to override at present — the palette lives in the files above. */
+
+/* Line-up role label ------------------------------------------------------ */
+/*
+ * .blog-overlay-tag was built for a category <a>; the template hangs the pill
+ * styling off `> a` only. Our roles are not links, so mirror that rule onto the
+ * <span> — without it the text sits naked and half off the card edge.
+ */
+.blog-overlay-tag > span {
+	display: inline-block;
+	background: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(137, 137, 137, .20);
+	padding: 10px 20px;
+	line-height: 1;
+	border-radius: 50px;
+	font-size: 13px;
+	font-weight: 700;
+	color: var(--mcf-navy, #12294b);
+	position: relative;
+	z-index: 1;
+}
+
+/* Names run to two lines at some widths — keep every card the same height */
+.protein-blog .blog-post-item {
+	height: calc(100% - 30px);
+}
+.protein-blog .blog-post-content .title {
+	min-height: 2.6em;
+}
+
+/* Footer social row ------------------------------------------------------- */
+/*
+ * .fw-btn is the app-store badge slot — it stacks children with margin-top,
+ * which turns a social row into a vertical column. This is a proper row.
+ */
+.footer-widget .fw-social {
+	margin-top: 25px;
+}
+.footer-widget .fw-social ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-widget .fw-social ul li {
+	margin: 0;
+}
+.footer-widget .fw-social ul li a {
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .08);
+	color: #fff;
+	font-size: 15px;
+	transition: background .2s, color .2s;
+}
+.footer-widget .fw-social ul li a:hover,
+.footer-widget .fw-social ul li a:focus-visible {
+	background: #fff;
+	color: #12294b;
+}
+
+/* Contact form ------------------------------------------------------------ */
+/* The template styles this form on a white ground; ours sits on .gray-bg */
+.contact-area .contact-form-wrap {
+	background: #fff;
+	padding: 45px 40px;
+	border-radius: 6px;
+	box-shadow: 0 18px 40px -24px rgba(12, 26, 51, .25);
+}
+.contact-area .contact-form .form-grp select {
+	width: 100%;
+}
+.contact-area .alert {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 575px) {
+	.contact-area .contact-form-wrap {
+		padding: 30px 22px;
+	}
+}
+

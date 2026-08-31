@@ -587,180 +587,7 @@
 </section>
 <!-- faq-area-end -->
 
-<!-- pricing-area -->
-<section id="sponsor" class="pricing-area protein-pricing gray-bg pt-120 pb-90">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8">
-                <div class="section-title protein-title text-center mb-50">
-                    <div class="overlay-title">Partner</div>
-                    <h6 class="sub-title">Sponsorship &amp; Advertising</h6>
-                    <h2 class="title">Partner With Us</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <ul class="nav nav-tabs pricing-nav" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a href="#" class="nav-link" id="weekly-tab" data-bs-toggle="tab" data-bs-target="#weekly" role="tab" aria-controls="weekly" aria-selected="false">Sponsorship</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a href="#" class="nav-link active" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" role="tab" aria-controls="monthly" aria-selected="true">Programme Advert</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a href="#" class="nav-link" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly" role="tab" aria-controls="yearly" aria-selected="false">Get Involved</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="tab-content pricing-tab-content" id="myTabContent">
-            <div class="tab-pane" id="weekly" role="tabpanel" aria-labelledby="weekly-tab">
-                <div class="row g-0 justify-content-center align-items-end">
-                    <div class="col">
-                        <div class="pricing-box best-pack mb-30">
-                            <p class="best-value">Most Support</p>
-                            <div class="pricing-head">
-                                <h2 class="title">Gold</h2>
-                                <span>Headline sponsor</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Logo on stage backdrop <i class="fal fa-check"></i></li>
-                                    <li>Full page in the programme <i class="fal fa-check"></i></li>
-                                    <li>Named from the stage <i class="fal fa-check"></i></li>
-                                    <li>Logo on the website <i class="fal fa-check"></i></li>
-                                    <li>Social media features <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">On request</h2>
-                                <p>One edition</p>
-                                <a href="#contact" class="btn protein-btn section-link">Talk To Us <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="pricing-box mb-30">
-                            <div class="pricing-head">
-                                <h2 class="title">Silver</h2>
-                                <span>Supporting sponsor</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Logo on the sponsor board <i class="fal fa-check"></i></li>
-                                    <li>Half page in the programme <i class="fal fa-check"></i></li>
-                                    <li>Logo on the website <i class="fal fa-check"></i></li>
-                                    <li>Social media mention <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">On request</h2>
-                                <p>One edition</p>
-                                <a href="#contact" class="btn transparent-btn pt-transparent section-link">Talk To Us <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane show active" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
-                <div class="row g-0 justify-content-center align-items-end">
-                    <div class="col">
-                        <div class="pricing-box best-pack mb-30">
-                            <p class="best-value">Most Support</p>
-                            <div class="pricing-head">
-                                <h2 class="title">Full Page</h2>
-                                <span>148 &times; 210 mm</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Full page, full colour <i class="fal fa-check"></i></li>
-                                    <li>Inside cover available <i class="fal fa-check"></i></li>
-                                    <li>Artwork 154 &times; 216 mm with bleed <i class="fal fa-check"></i></li>
-                                    <li>Press-ready PDF, CMYK, 300 dpi <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">On request</h2>
-                                <p>Per edition</p>
-                                <a href="#contact" class="btn protein-btn section-link">Book A Page <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="pricing-box mb-30">
-                            <div class="pricing-head">
-                                <h2 class="title">Half Page</h2>
-                                <span>148 &times; 105 mm</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Half page, full colour <i class="fal fa-check"></i></li>
-                                    <li>Landscape format <i class="fal fa-check"></i></li>
-                                    <li>Artwork 154 &times; 111 mm with bleed <i class="fal fa-check"></i></li>
-                                    <li>Press-ready PDF, CMYK, 300 dpi <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">On request</h2>
-                                <p>Per edition</p>
-                                <a href="#contact" class="btn transparent-btn pt-transparent section-link">Book A Page <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
-                <div class="row g-0 justify-content-center align-items-end">
-                    <div class="col">
-                        <div class="pricing-box best-pack mb-30">
-                            <p class="best-value">Most Support</p>
-                            <div class="pricing-head">
-                                <h2 class="title">Partner</h2>
-                                <span>Churches &amp; organisations</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Bring your congregation <i class="fal fa-check"></i></li>
-                                    <li>Host a future edition <i class="fal fa-check"></i></li>
-                                    <li>Join the planning team <i class="fal fa-check"></i></li>
-                                    <li>Network gospel resources <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">Get in touch</h2>
-                                <p>Any edition</p>
-                                <a href="#contact" class="btn protein-btn section-link">Partner With Us <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="pricing-box mb-30">
-                            <div class="pricing-head">
-                                <h2 class="title">Volunteer</h2>
-                                <span>Give your time</span>
-                            </div>
-                            <div class="pricing-list">
-                                <ul>
-                                    <li>Stewarding on the night <i class="fal fa-check"></i></li>
-                                    <li>Media and photography <i class="fal fa-check"></i></li>
-                                    <li>Hospitality and welcome <i class="fal fa-check"></i></li>
-                                    <li>Set-up and pack-down <i class="fal fa-check"></i></li>
-                                </ul>
-                            </div>
-                            <div class="pricing-bottom">
-                                <h2 class="price">Get in touch</h2>
-                                <p>Any edition</p>
-                                <a href="#contact" class="btn transparent-btn pt-transparent section-link">Volunteer <i class="fal fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- pricing-area-end -->
+
 
 <!-- shop-details-area -->
 <section id="lol" class="shop-details-area protein-shop pt-120 pb-120">
@@ -836,19 +663,87 @@
 </section>
 <!-- shop-details-area-end -->
 
-<!-- cta-area -->
-<div class="cta-area protein-cta">
+<!-- contact-area -->
+<section id="contact" class="contact-area pt-120 pb-120 gray-bg">
     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <div class="section-title protein-title text-center mb-50">
+                    <div class="overlay-title">Contact</div>
+                    <h6 class="sub-title">Sponsor &middot; Advertise &middot; Volunteer</h6>
+                    <h2 class="title">Get In Touch</h2>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12">
-                <div class="cta-content">
-                    <h6 class="title">Ten Editions. Free Entry. Everyone Welcome.</h6>
-                    <a href="#contact" class="make-order section-link">Reserve A Seat</a>
+                @include('web.pages.status.status')
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="contact-form-wrap">
+                    @php
+                        // contactStore() compares the posted value against session('captcha'),
+                        // so the code has to be seeded here when the form is rendered.
+                        $captchaCode = captcha_code();
+                        session()->put('captcha', $captchaCode);
+                    @endphp
+                    {{-- id is deliberately NOT "contact-form": assets/js/ajax-form.js binds to that id,
+     hijacks submit and POSTs to a hardcoded inc/contact.php that does not exist here.
+     validator.js auto-inits on form[data-toggle="validator"], so validation still runs. --}}
+                    <form id="mcf-contact-form" class="contact-form" method="POST" action="{{ route('submit.contact') }}" data-toggle="validator">
+                        @csrf
+                        <input type="hidden" name="captcha" value="{{ $captchaCode }}">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-grp">
+                                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter full name" required="required" data-error="Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                    <i class="fal fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-grp">
+                                    <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" required="required" data-error="Email is required.">
+                                    <div class="help-block with-errors"></div>
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-grp">
+                                    <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone number" required="required" data-error="Phone is required.">
+                                    <div class="help-block with-errors"></div>
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-grp">
+                                    <select name="subject" class="form-select custom-select" required="required" data-error="Please choose a subject.">
+                                        <option value="" selected disabled>What is this about?</option>
+                                        <option value="Sponsorship">I want to sponsor the festival</option>
+                                        <option value="Advertising">I want to advertise in the programme</option>
+                                        <option value="Volunteering">I want to volunteer</option>
+                                        <option value="Ministering">I want to minister</option>
+                                        <option value="Partnership">Church or organisation partnership</option>
+                                        <option value="General">General enquiry</option>
+                                    </select>
+                                    <i class="fal fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-grp">
+                            <textarea name="message" id="message" placeholder="Tell us a little more" required="required" data-error="Message is required.">{{ old('message') }}</textarea>
+                            <div class="help-block with-errors"></div>
+                            <i class="fal fa-pencil"></i>
+                        </div>
+                        <button type="submit" class="btn protein-btn">Send Message <i class="fal fa-arrow-right"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- cta-area-end -->
+</section>
+<!-- contact-area-end -->
 
 @endsection

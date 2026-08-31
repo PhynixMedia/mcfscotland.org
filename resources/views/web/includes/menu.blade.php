@@ -17,7 +17,6 @@
                                     <li><a href="#mandate" class="section-link">Mandate</a></li>
                                     <li><a href="#lineup" class="section-link">Line-Up</a></li>
                                     <li><a href="#gallery" class="section-link">Gallery</a></li>
-                                    <li><a href="#sponsor" class="section-link">Partner</a></li>
                                     <li><a href="#lol" class="section-link">MCF L.O.L.</a></li>
                                     <li><a href="#contact" class="section-link">Contact</a></li>
                                 </ul>
