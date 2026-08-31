@@ -685,8 +685,9 @@
                 <div class="contact-form-wrap">
                     @php
                         // contactStore() compares the posted value against session('captcha'),
-                        // so the code has to be seeded here when the form is rendered.
-                        $captchaCode = captcha_code();
+                        // so the code is generated and stashed here when the form renders.
+                        // The visitor reads it off the page and types it back in.
+                        $captchaCode = captcha_code(5);
                         session()->put('captcha', $captchaCode);
                     @endphp
                     {{-- id is deliberately NOT "contact-form": assets/js/ajax-form.js binds to that id,
@@ -694,7 +695,6 @@
      validator.js auto-inits on form[data-toggle="validator"], so validation still runs. --}}
                     <form id="mcf-contact-form" class="contact-form" method="POST" action="{{ route('submit.contact') }}" data-toggle="validator">
                         @csrf
-                        <input type="hidden" name="captcha" value="{{ $captchaCode }}">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-grp">
@@ -736,6 +736,18 @@
                             <textarea name="message" id="message" placeholder="Tell us a little more" required="required" data-error="Message is required.">{{ old('message') }}</textarea>
                             <div class="help-block with-errors"></div>
                             <i class="fal fa-pencil"></i>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="form-grp captcha-grp">
+                                    <span class="captcha-code" aria-hidden="true">{{ $captchaCode }}</span>
+                                    <a class="captcha-refresh" href="{{ url('/') }}#contact" title="Get a new code" aria-label="Get a new code"><i class="fal fa-redo"></i></a>
+                                    <input type="text" name="captcha" autocomplete="off" spellcheck="false"
+                                           placeholder="Type the code" aria-label="Type the code shown"
+                                           required="required" data-error="Please enter the code.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
                         </div>
                         <button type="submit" class="btn protein-btn">Send Message <i class="fal fa-arrow-right"></i></button>
                     </form>
