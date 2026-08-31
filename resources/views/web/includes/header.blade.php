@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-    <title>MCF Scotland</title>
-    <meta name="description" content="">
+    <title>Maranatha Christ Festival</title>
+    <meta name="description" content="Maranatha Christ Festival is a free interdenominational gospel concert celebrating Christ. Now in its 10th edition.">
 
 
     <!-- CSS here -->
