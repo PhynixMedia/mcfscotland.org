@@ -113,16 +113,16 @@
             <div class="col-xl-7 col-lg-6 order-0 order-lg-2">
                 <div class="choose-content">
                     <div class="section-title protein-title mb-20">
-                        <h6 class="sub-title">About The Festival</h6>
-                        <h2 class="title">Maranatha Christ Festival<span>.</span></h2>
+                        <h6 class="sub-title">Who We Are</h6>
+                        <h2 class="title">More Than A Concert<span>.</span></h2>
                     </div>
-                    <p>Maranatha Christ Festival is a free interdenominational gospel concert that draws believers from
-                    all walks of life to enjoy the highest quality of soul-lifting and edifying praise and worship. Every
-                    year the festival parades a plethora of gospel ministers and provides a rallying point for worshippers
-                    to praise, dance and rejoice in a conducive, Spirit-filled atmosphere.</p>
-                    <p>The festival debuted in 2010 following a word of prophecy from Pastor Audu of the Mountain of Fire
-                    and Miracles Ministries, who came to Edinburgh, Scotland on missionary assignment. This year&rsquo;s
-                    festival is the 10th edition.</p>
+                    <p>Maranatha Christ Festival is an interdenominational gospel festival dedicated to celebrating
+                    Jesus Christ through praise, worship, evangelism, fellowship and the expression of God-given talents.
+                    It brings together believers from diverse denominations, cultures and communities in an atmosphere of
+                    joyful celebration and spiritual renewal.</p>
+                    <p>The name &ldquo;Maranatha&rdquo; carries the festival&rsquo;s central message &mdash; a focus on Christ
+                    and His promised return. That message remains at the heart of the vision, which began in Edinburgh in 2010
+                    following a prophetic word from Pastor Audu of the Mountain of Fire and Miracles Ministries.</p>
                     <a href="#lineup" class="btn transparent-btn pt-transparent section-link">Meet The Ministers <i class="fal fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -135,8 +135,8 @@
                                     <i class="flaticon-protein-supplement"></i>
                                 </div>
                                 <div class="content">
-                                    <h4>Praise &amp; Worship</h4>
-                                    <p>Hours of uninterrupted, Spirit-filled praise led by anointed ministers.</p>
+                                    <h4>Worship Gatherings</h4>
+                                    <p>Free, interdenominational celebration built around praise, worship and fellowship.</p>
                                 </div>
                             </li>
                             <li>
@@ -144,8 +144,8 @@
                                     <i class="flaticon-supplementary-food"></i>
                                 </div>
                                 <div class="content">
-                                    <h4>Every Denomination</h4>
-                                    <p>A rallying point for believers from every church and every background.</p>
+                                    <h4>Evangelism</h4>
+                                    <p>Every gathering carries an evangelistic purpose &mdash; pointing people to Christ.</p>
                                 </div>
                             </li>
                             <li>
@@ -153,8 +153,8 @@
                                     <i class="flaticon-vitamins"></i>
                                 </div>
                                 <div class="content">
-                                    <h4>Ten Cities, Ten Years</h4>
-                                    <p>Edinburgh, London, Lagos, Akure, Ogbomoso, Badagry and Port Harcourt.</p>
+                                    <h4>Talent Platform</h4>
+                                    <p>A stage for ministers, musicians, comedians and creatives to use their gifts.</p>
                                 </div>
                             </li>
                         </ul>
@@ -177,7 +177,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="section-title protein-title text-center mb-50">
                     <div class="overlay-title">Mandate</div>
-                    <h6 class="sub-title">Why We Gather</h6>
+                    <h6 class="sub-title">Three Objectives, And How We Live Them</h6>
                     <h2 class="title">Our Mandate</h2>
                 </div>
             </div>
@@ -190,8 +190,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon01.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Evangelise &amp; Restore</h3>
-                        <p>To evangelise and restore lost souls to Christ through raw praise and worship.</p>
+                        <h3>Evangelism &amp; Soul Winning</h3>
+                        <p>To evangelise and encourage the restoration of lost souls to Christ through authentic praise, worship and the proclamation of the Gospel.</p>
                     </div>
                 </div>
             </div>
@@ -202,8 +202,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon02.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Celebrate Christ</h3>
-                        <p>A platform to celebrate Christ and remind the world that Jesus, our Messiah, is coming soon.</p>
+                        <h3>Celebrating Christian Talents</h3>
+                        <p>To celebrate, promote and provide platforms for Christian talents and ministries, enabling God-given gifts to be used for His glory.</p>
                     </div>
                 </div>
             </div>
@@ -214,8 +214,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon03.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Promote Talent</h3>
-                        <p>To celebrate and promote Christian talent in ministries all over the world.</p>
+                        <h3>Building Christian Relationships</h3>
+                        <p>To forge meaningful friendships and create opportunities for the exchange and networking of gospel resources and ministries.</p>
                     </div>
                 </div>
             </div>
@@ -226,8 +226,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon04.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Forge Friendships</h3>
-                        <p>To forge friendships and network gospel resources across churches and nations.</p>
+                        <h3>Concerts &amp; Gatherings</h3>
+                        <p>Free, interdenominational celebrations bringing gospel ministers, worship leaders and musicians together in one room.</p>
                     </div>
                 </div>
             </div>
@@ -238,8 +238,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon05.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Every Background</h3>
-                        <p>Open to all, regardless of race, gender, genre, denomination or ethnic background.</p>
+                        <h3>Fellowship &amp; Networking</h3>
+                        <p>A shared space for worship that encourages collaboration and the exchange of ideas among Christians and ministries.</p>
                     </div>
                 </div>
             </div>
@@ -250,8 +250,8 @@
                         <img src="{{ asset('assets/img/icon/features_icon06.png') }}" alt="">
                     </div>
                     <div class="features-content">
-                        <h3>Always Free</h3>
-                        <p>Every edition is free to attend. No ticket price has ever stood between anyone and worship.</p>
+                        <h3>Creative Platforms</h3>
+                        <p>Initiatives beyond the main stage &mdash; including MCF L.O.L. &mdash; supporting wholesome creativity and community.</p>
                     </div>
                 </div>
             </div>
@@ -264,10 +264,10 @@
 <section id="lineup" class="blog-area protein-blog pt-120 pb-90">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8">
+            <div class="col-xl-7 col-lg-9">
                 <div class="section-title protein-title text-center mb-50">
                     <div class="overlay-title">Line-Up</div>
-                    <h6 class="sub-title">Hosts, Ambassadors &amp; Guest Artists</h6>
+                    <h6 class="sub-title">The Convener, Ambassadors &amp; Guest Ministers</h6>
                     <h2 class="title">Who You Will Hear</h2>
                 </div>
             </div>
@@ -275,86 +275,98 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb01.jpg') }}" alt="Sophie Fey">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/sophie-fey.jpg', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="Ololade Ajiwo - Sophie Fey">
                         <div class="blog-overlay-tag">
-                            <span>Host &amp; Convener</span>
+                            <span>The Convener</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
-                        <h4 class="title">Sophie Fey</h4>
-                        <p>Ololade Ajiwo, convener of the vision, and founder of Real Women of Purpose International.</p>
+                        <h4 class="title">Ololade Ajiwo &mdash; Sophie Fey</h4>
+                        <p>Convener of Maranatha Christ Festival and the visionary behind its journey since inception. Founder of Real Women of Purpose International.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb02.jpg') }}" alt="Evang. (Dr) Funmi Aragbaiye">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/funmi-aragbaiye.jpg', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Evang. (Dr.) Funmi Aragbaiye">
                         <div class="blog-overlay-tag">
                             <span>Life Patron &amp; Matron</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
-                        <h4 class="title">Evang. (Dr) Funmi Aragbaiye</h4>
-                        <p>A veteran of gospel ministry and the festival&rsquo;s life patron.</p>
+                        <h4 class="title">Evang. (Dr.) Funmi Aragbaiye</h4>
+                        <p>A respected gospel minister whose contribution to Christian music has established her as a notable voice within the Nigerian gospel community.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb03.jpg') }}" alt="Rev. Mike Abdul">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/mike-abdul.jpg', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Rev. Mike Abdul">
                         <div class="blog-overlay-tag">
-                            <span>Guest Artist</span>
+                            <span>Guest Minister</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
                         <h4 class="title">Rev. Mike Abdul</h4>
-                        <p>A worshipper who sees no limit in worship. Member of the highly favoured Midnight Crew, hit songwriter and composer.</p>
+                        <p>Gospel minister, worshipper, songwriter and composer whose ministry is rooted in a passion for reaching people through music.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb01.jpg') }}" alt="MC SACO">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/mc-saco.jpg', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="MC SACO">
                         <div class="blog-overlay-tag">
                             <span>Compere</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
                         <h4 class="title">MC SACO</h4>
-                        <p>The Senior Advocate of Comedy. Multiple award-winning compere, sought after the world over.</p>
+                        <p>The Senior Advocate of Comedy. A multiple award-winning comedian, professional compere and dynamic entertainer.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb02.jpg') }}" alt="Michael Whyte">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/michael-whyte.jpg', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Michael Whyte">
                         <div class="blog-overlay-tag">
                             <span>Ambassador &middot; New York</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
                         <h4 class="title">Michael Whyte</h4>
-                        <p>Worship leader and songwriter who has ministered alongside renowned gospel ministers at home and abroad.</p>
+                        <p>Worship leader and songwriter based in New York City, who has ministered alongside renowned gospel ministers at home and internationally.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="blog-post-thumb">
-                        <img src="{{ asset('assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
+                    <div class="blog-post-thumb lineup-thumb">
+                        <img src="{{ cms_image('assets/img/lineup/ayaba-esther-george.jpg', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
                         <div class="blog-overlay-tag">
-                            <span>Ambassador &middot; UK</span>
+                            <span>Ambassador &middot; United Kingdom</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
                         <h4 class="title">Ayaba Esther George</h4>
-                        <p>Seasoned songwriter, vocalist and award-winning praise leader.</p>
+                        <p>UK-based indigenous gospel artist, seasoned songwriter, vocalist and award-winning praise leader.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-9">
+                <div class="lineup-alumni">
+                    <h5>Ministers who have graced the festival</h5>
+                    <p>Pastor Gabriel Eziashi &middot; El Mafrex &middot; Michael Pounds &middot; Moty Aduragbemi &middot; Dolly P &middot;
+                    Mike Abdul &middot; MoniQue &middot; A&rsquo;Dam &middot; Biyi Samuel &middot; Ayaba Esther &middot; Eloho Efemui &middot;
+                    Aniete Ezimo &middot; C4C &middot; Phemo Olokodana &middot; Adebayo Jones &middot; MC SACO &middot; Hossanah Voices &middot;
+                    Femi King &middot; Abajesurin &middot; HEF &middot; The Revival Train &middot; The REVIVALS &middot;
+                    Evang. Dr. Funmi Aragbaye &middot; Telemi &middot; Sola Soetan &middot; Liza C &mdash; among others.</p>
                 </div>
             </div>
         </div>
@@ -370,10 +382,11 @@
                 <div class="video-content">
                     <div class="section-title protein-title white-title mb-35">
                         <h6 class="sub-title">Watch</h6>
-                        <h2 class="title">Ten Years Of Praise<span>.</span></h2>
+                        <h2 class="title">From Edinburgh, Outward<span>.</span></h2>
                     </div>
-                    <p>Six hours of uninterrupted praise and worship, a stage shared by ministers from across the world, and
-                    a room full of believers who came to celebrate. This is what a Maranatha night looks like.</p>
+                    <p>The debut edition was an all-night gathering &mdash; six uninterrupted hours of praise and worship led by
+                    Wale Adebanjo and Timileyin Falayi. Since then the festival has travelled from Edinburgh to London, Lagos,
+                    Akure, Ogbomoso, Badagry and Port Harcourt.</p>
                     <div class="slider-nav"></div>
                 </div>
             </div>
@@ -469,7 +482,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="fact-item fact-item-two mb-30">
                     <div class="chart-two" data-percent="100">
-                        <span class="percentage">10<small></small></span>
+                        <span class="percentage">10<small>+</small></span>
                     </div>
                     <div class="fact-content">
                         <h4 class="title">Editions</h4>
@@ -480,22 +493,22 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="fact-item fact-item-two mb-30">
                     <div class="chart-two" data-percent="100">
-                        <span class="percentage">8<small></small></span>
+                        <span class="percentage">7<small></small></span>
                     </div>
                     <div class="fact-content">
                         <h4 class="title">Cities</h4>
-                        <span>Across the UK and Nigeria</span>
+                        <span>Across the United Kingdom and Nigeria</span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="fact-item fact-item-two mb-30">
                     <div class="chart-two" data-percent="100">
-                        <span class="percentage">40<small>+</small></span>
+                        <span class="percentage">6<small></small></span>
                     </div>
                     <div class="fact-content">
-                        <h4 class="title">Gospel Ministers</h4>
-                        <span>Who have graced our stage</span>
+                        <h4 class="title">Ambassadors</h4>
+                        <span>Carrying the vision across nations</span>
                     </div>
                 </div>
             </div>
@@ -599,11 +612,12 @@
                     <h2 class="title">MCF L.O.L.<span>.</span></h2>
                 </div>
                 <div class="shop-details-content">
-                    <p>Laugh Out Loud is our comedy night, and it debuted in Edinburgh, Scotland. The idea is a relaxed
-                    atmosphere &mdash; fun, networking, and renowned and upcoming comedians from home and abroad, on a
-                    platform built to support crafts and talents.</p>
-                    <p>Laughter truly acts as medicine for the soul. A cheerful heart is good medicine, and both medical
-                    and psychological insight confirm that a good laugh brings profound physical, mental and social healing.</p>
+                    <p>In 2024 the vision expanded with MCF L.O.L. &mdash; a platform bringing comedians, creatives and the wider
+                    Christian community together in a relaxed atmosphere of laughter, connection and fellowship. The debut
+                    edition was held in Edinburgh, Scotland.</p>
+                    <p>It is built on the understanding that joy, healthy recreation and meaningful relationships matter to a
+                    community. Both renowned and emerging talents get a stage, visibility and the chance to build real networks.</p>
+                    <p class="lol-strap">Where creativity meets community, and laughter creates connection.</p>
                     <div class="shop-purchase-info">
                         <div class="purchase-btn">
                             <a href="#contact" class="btn protein-btn section-link">Join The Next One <i class="fal fa-arrow-right"></i></a>
