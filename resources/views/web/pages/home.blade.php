@@ -266,7 +266,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-7 col-lg-9">
                 <div class="section-title protein-title text-center mb-50">
-                    <div class="overlay-title">Line-Up</div>
+                    <div class="overlay-title">Lineup</div>
                     <h6 class="sub-title">The Convener, Ambassadors &amp; Guest Ministers</h6>
                     <h2 class="title">Who You Will Hear</h2>
                 </div>
@@ -348,7 +348,7 @@
                     <div class="blog-post-thumb lineup-thumb">
                         <img src="{{ image_by_stem('assets/img/lineup/ayaba-esther-george', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
                         <div class="blog-overlay-tag">
-                            <span>Ambassador &middot; United Kingdom</span>
+                            <span>Ambassador &middot; UK</span>
                         </div>
                     </div>
                     <div class="blog-post-content">

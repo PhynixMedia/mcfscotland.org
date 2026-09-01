@@ -243,12 +243,15 @@
 /* Line-up portraits -------------------------------------------------------- */
 /*
  * Supplied photos arrive at wildly different ratios (a 1600x1195 studio shot
- * next to a 370x370 headshot). Crop every card to the same square and bias the
- * focal point upward so faces are never cut off at the chin.
+ * next to a 370x370 headshot). object-fit crops every card to the same square
+ * and biases the focal point upward so faces are never cut at the chin.
+ *
+ * Note there is deliberately NO overflow:hidden here. .blog-overlay-tag is
+ * positioned bottom:-17px so the role pill hangs below the image edge by
+ * design; clipping the thumb cuts the pill in half.
  */
 .lineup-thumb {
-	overflow: hidden;
-	border-radius: 8px 8px 0 0;
+	position: relative;
 }
 .lineup-thumb img {
 	width: 100%;
@@ -256,15 +259,56 @@
 	object-fit: cover;
 	object-position: 50% 22%;
 	display: block;
-	transition: transform .45s ease;
+	border-radius: 8px 8px 0 0;
+	transition: filter .35s ease;
 }
+/* a brightness hover rather than a zoom — a zoom needs clipping, see above */
 .blog-post-item:hover .lineup-thumb img {
-	transform: scale(1.04);
+	filter: brightness(1.05);
 }
 
 /* Older Safari has no aspect-ratio — fall back to a fixed height */
 @supports not (aspect-ratio: 1 / 1) {
 	.lineup-thumb img { height: 340px; }
+}
+
+/* Role pill: give long roles room and stop them wrapping mid-phrase */
+.lineup-thumb .blog-overlay-tag {
+	left: 16px;
+	right: 16px;
+}
+.lineup-thumb .blog-overlay-tag > span {
+	white-space: nowrap;
+	font-size: 12px;
+	padding: 9px 16px;
+}
+
+/* Decorative section watermark --------------------------------------------- */
+/*
+ * .section-title .overlay-title is 200px display type sitting behind the
+ * heading. A value containing a space or hyphen wraps and the second line
+ * lands on the content below it. Keep it on one line and inert.
+ */
+.section-title .overlay-title {
+	white-space: nowrap;
+	pointer-events: none;
+	user-select: none;
+}
+
+/*
+ * The template scales this to 140px on tablets and no further, so a seven
+ * letter word is still ~490px wide and pushes a horizontal scrollbar onto
+ * phones. Bring it down to something that actually fits the viewport.
+ */
+@media (max-width: 767px) {
+	.section-title .overlay-title {
+		font-size: 90px;
+	}
+}
+@media (max-width: 479px) {
+	.section-title .overlay-title {
+		font-size: 58px;
+	}
 }
 
 /* Roll of past ministers --------------------------------------------------- */
