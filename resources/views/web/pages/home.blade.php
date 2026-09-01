@@ -436,7 +436,8 @@
                 @php $caption = caption_from_filename($image); @endphp
                 <div class="col-lg-4 col-sm-6 grid-item">
                     <div class="gallery-product-item mb-30">
-                        <img src="{{ asset($image) }}" alt="{{ $caption ?: 'Maranatha Christ Festival' }}">
+                        <img src="{{ asset($image) }}" alt="{{ $caption ?: 'Maranatha Christ Festival' }}"
+                             loading="lazy" decoding="async">
                         <a href="{{ asset($image) }}" class="popup-image" title="{{ $caption }}"></a>
                     </div>
                 </div>

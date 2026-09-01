@@ -340,3 +340,24 @@
 	color: #12294b;
 }
 
+/* Gallery tiles ------------------------------------------------------------ */
+/*
+ * The supplied photos run from 0.56 (tall portrait) to 1.78 (16:9) — a three
+ * fold spread that makes an untamed grid look ragged. Crop every tile to a
+ * common 4:3 so the wall reads as deliberate.
+ *
+ * The fixed box also means the layout is known before the image downloads,
+ * which is what makes loading="lazy" safe next to isotope: the grid measures
+ * correctly even for tiles that have not fetched yet.
+ */
+.gallery-product-item img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+	display: block;
+}
+
+@supports not (aspect-ratio: 4 / 3) {
+	.gallery-product-item img { height: 260px; }
+}
+
