@@ -276,7 +276,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/sophie-fey.jpg', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="Ololade Ajiwo - Sophie Fey">
+                        <img src="{{ image_by_stem('assets/img/lineup/sophie-fey', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="Ololade Ajiwo - Sophie Fey">
                         <div class="blog-overlay-tag">
                             <span>The Convener</span>
                         </div>
@@ -290,7 +290,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/funmi-aragbaiye.jpg', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Evang. (Dr.) Funmi Aragbaiye">
+                        <img src="{{ image_by_stem('assets/img/lineup/funmi-aragbaiye', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Evang. (Dr.) Funmi Aragbaiye">
                         <div class="blog-overlay-tag">
                             <span>Life Patron &amp; Matron</span>
                         </div>
@@ -304,7 +304,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/mike-abdul.jpg', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Rev. Mike Abdul">
+                        <img src="{{ image_by_stem('assets/img/lineup/mike-abdul', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Rev. Mike Abdul">
                         <div class="blog-overlay-tag">
                             <span>Guest Minister</span>
                         </div>
@@ -318,7 +318,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/mc-saco.jpg', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="MC SACO">
+                        <img src="{{ image_by_stem('assets/img/lineup/mc-saco', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="MC SACO">
                         <div class="blog-overlay-tag">
                             <span>Compere</span>
                         </div>
@@ -332,7 +332,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/michael-whyte.jpg', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Michael Whyte">
+                        <img src="{{ image_by_stem('assets/img/lineup/michael-whyte', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Michael Whyte">
                         <div class="blog-overlay-tag">
                             <span>Ambassador &middot; New York</span>
                         </div>
@@ -346,7 +346,7 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ cms_image('assets/img/lineup/ayaba-esther-george.jpg', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
+                        <img src="{{ image_by_stem('assets/img/lineup/ayaba-esther-george', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
                         <div class="blog-overlay-tag">
                             <span>Ambassador &middot; United Kingdom</span>
                         </div>
@@ -408,68 +408,39 @@
 <!-- video-area-end -->
 
 <!-- gallery-area -->
-<section id="gallery" class="gallery-area protein-gallery pt-120">
+<section id="gallery" class="gallery-area protein-gallery pt-120 pb-90">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8">
                 <div class="section-title protein-title text-center mb-50">
                     <div class="overlay-title">Gallery</div>
-                    <h6 class="sub-title">Past Editions</h6>
+                    <h6 class="sub-title">Moments From The Festival</h6>
                     <h2 class="title">Ten Years In Pictures</h2>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="product-menu">
-                    <button class="active" data-filter="*">All Editions</button>
-                    <button data-filter=".cat-one">Edinburgh</button>
-                    <button data-filter=".cat-two">London</button>
-                    <button data-filter=".cat-three">Lagos</button>
-                    <button data-filter=".cat-four">Akure</button>
-                    <button data-filter=".cat-five">Ogbomoso</button>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="row gallery-product-active">
-                    <div class="col-lg-4 col-sm-6 grid-item cat-two cat-three cat-five">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product01.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product01.jpg') }}" class="popup-image" title="Edinburgh &mdash; the debut all-night edition"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 grid-item cat-one cat-four cat-five">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product02.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product02.jpg') }}" class="popup-image" title="London &mdash; praise and worship"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 grid-item cat-two cat-three cat-four">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product03.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product03.jpg') }}" class="popup-image" title="Lagos &mdash; the ministers on stage"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 grid-item cat-one cat-two cat-three cat-five">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product04.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product04.jpg') }}" class="popup-image" title="Akure &mdash; led by Yemibee and HEF"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 grid-item cat-one cat-two cat-four cat-five">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product05.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product05.jpg') }}" class="popup-image" title="Ogbomoso &mdash; with Abajesurin"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 grid-item cat-one cat-three cat-four">
-                        <div class="gallery-product-item mb-30">
-                            <img src="{{ asset('assets/img/product/gallery_product06.jpg') }}" alt="">
-                            <a href="{{ asset('assets/img/product/gallery_product06.jpg') }}" class="popup-image" title="Port Harcourt &mdash; hands raised"></a>
-                        </div>
+        @php
+            // Everything in public/assets/img/gallery is shown, in filename order.
+            // Nothing to categorise and no markup to edit — just drop files in.
+            $gallery = images_in('assets/img/gallery');
+
+            // Until real photos land, keep the section looking right with theme stock.
+            if (! $gallery) {
+                $gallery = array_map(function ($i) {
+                    return "assets/img/product/gallery_product0{$i}.jpg";
+                }, range(1, 6));
+            }
+        @endphp
+        <div class="row gallery-product-active">
+            @foreach ($gallery as $image)
+                @php $caption = caption_from_filename($image); @endphp
+                <div class="col-lg-4 col-sm-6 grid-item">
+                    <div class="gallery-product-item mb-30">
+                        <img src="{{ asset($image) }}" alt="{{ $caption ?: 'Maranatha Christ Festival' }}">
+                        <a href="{{ asset($image) }}" class="popup-image" title="{{ $caption }}"></a>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
