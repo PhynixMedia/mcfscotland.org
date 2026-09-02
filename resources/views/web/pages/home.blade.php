@@ -14,7 +14,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-6 col-md-11 order-0 order-lg-2">
                         <div class="banner-img-wrap" data-animation="fadeInRight" data-delay=".4s">
-                            <img src="{{ asset('assets/img/banner/20260901_134153.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/banner/20260902_093307.png') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
