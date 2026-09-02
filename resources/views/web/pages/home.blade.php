@@ -68,7 +68,7 @@
 <!-- banner-area-end -->
 
 <!-- brand-area -->
-<div class="brand-area">
+{{-- <div class="brand-area">
     <div class="container">
         <div class="brand-wrap pt-80 pb-80">
             <div class="row brand-active">
@@ -105,7 +105,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- brand-area-end -->
 
 <!-- choose-area -->
