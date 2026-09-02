@@ -16,7 +16,6 @@
         "laravel/passport": "^8.0",
         "laravel/tinker": "^2.0",
         "lcobucci/jwt": "3.3.3",
-        "phynixmedia/runner5-php": "dev-master",
         "tymon/jwt-auth": "^1.0",
         "yoeunes/toastr": "^2.0"
     },
@@ -31,7 +30,12 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
     },
     "extra": {
         "laravel": {
@@ -62,14 +66,7 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories":[
-        {
-            "type": "vcs",
-            "url" : "https://bitbucket.org/phynixmedia/runner5-php.git",
-            "reference": "develop"
-        }
-    ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [

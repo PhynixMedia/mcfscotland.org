@@ -198,3 +198,104 @@ function cms_image($source = null, $fallback = null)
 
     return $fallback ? asset($fallback) : '';
 }
+
+/**
+ * Supported image extensions, lower case.
+ */
+function image_extensions()
+{
+    return ['jpg', 'jpeg', 'png', 'webp'];
+}
+
+/**
+ * Resolve an image by path stem, whatever extension it was saved with.
+ *
+ * Photos arrive from phones, cameras and WhatsApp as .jpg, .jpeg, .png or
+ * .webp in any casing, and renaming them by hand is exactly the busywork this
+ * avoids. Pass the path without an extension and the first match wins.
+ *
+ * Deliberately reads the directory rather than glob()-ing for each extension:
+ * macOS is case-insensitive, so a glob pattern of '.JPEG' happily matches a
+ * file stored as '.jpeg' and hands back the pattern's casing. That URL works
+ * locally and 404s on a case-sensitive Linux server. Returning the real
+ * on-disk name is the only thing that is correct on both.
+ *
+ * @param  string      $stem     path under public/, no extension
+ *                               e.g. 'assets/img/lineup/mike-abdul'
+ * @param  string|null $fallback full relative path used when nothing matches
+ * @return string                empty when there is nothing to show
+ */
+function image_by_stem($stem, $fallback = null)
+{
+    $stem = trim($stem, '/');
+    $dir  = dirname($stem);
+    $base = basename($stem);
+    $full = public_path($dir);
+
+    if (is_dir($full)) {
+        foreach (scandir($full) as $file) {
+            $info = pathinfo($file);
+
+            if (isset($info['extension'])
+                && strcasecmp($info['filename'], $base) === 0
+                && in_array(strtolower($info['extension']), image_extensions(), true)) {
+
+                return asset($dir . '/' . $file);
+            }
+        }
+    }
+
+    return $fallback ? asset($fallback) : '';
+}
+
+/**
+ * List every image sitting in a folder under public/, sorted naturally.
+ *
+ * Used by the gallery so photos can simply be dropped into a directory with no
+ * markup, categories or filters to maintain. Reads the directory for the same
+ * case-sensitivity reason as image_by_stem().
+ *
+ * @param  string $dir path under public/, e.g. 'assets/img/gallery'
+ * @return array       relative paths, ready for asset()
+ */
+function images_in($dir)
+{
+    $dir  = trim($dir, '/');
+    $full = public_path($dir);
+
+    if (! is_dir($full)) {
+        return [];
+    }
+
+    $files = [];
+    foreach (scandir($full) as $file) {
+        $ext = pathinfo($file, PATHINFO_EXTENSION);
+        if ($ext !== '' && in_array(strtolower($ext), image_extensions(), true)) {
+            $files[] = $file;
+        }
+    }
+
+    natcasesort($files);
+
+    return array_map(function ($file) use ($dir) {
+        return $dir . '/' . $file;
+    }, array_values($files));
+}
+
+/**
+ * Turn an image filename into a human caption, or nothing if it is a camera dump.
+ *
+ * 'edinburgh-2019.jpg' becomes 'Edinburgh 2019'; 'IMG_20240612.jpg' gets no
+ * caption rather than an ugly one.
+ */
+function caption_from_filename($file)
+{
+    $name = pathinfo($file, PATHINFO_FILENAME);
+
+    if (preg_match('/^(img|dsc|dscf|photo|image|screenshot|pxl|whatsapp)[\W_]*\d/i', $name) || preg_match('/^[\d\W_]+$/', $name)) {
+        return '';
+    }
+
+    return ucwords(trim(preg_replace('/[\s\-_]+/', ' ', $name)));
+}
+
