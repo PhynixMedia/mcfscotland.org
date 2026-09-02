@@ -163,7 +163,7 @@
                         </ul>
                     </div>
                     <div class="choose-img">
-                        <img class="main-img" src="{{ asset('assets/img/images/choose_img.png') }}" alt="">
+                        <img class="main-img" src="{{ asset('assets/img/images/20260902_110512.png') }}" alt="">
                         <img class="shape" src="{{ asset('assets/img/images/choose_img_shape.png') }}" alt="">
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                 <div class="features-item text-center mb-30">
                     <div class="features-count">01</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon01.png') }}" alt="">
+                        <i class="fal fa-dove" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Evangelism &amp; Soul Winning</h3>
@@ -202,7 +202,7 @@
                 <div class="features-item text-center active mb-30">
                     <div class="features-count">02</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon02.png') }}" alt="">
+                        <i class="fal fa-microphone" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Celebrating Christian Talents</h3>
@@ -214,7 +214,7 @@
                 <div class="features-item text-center mb-30">
                     <div class="features-count">03</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon03.png') }}" alt="">
+                        <i class="fal fa-handshake" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Building Christian Relationships</h3>
@@ -226,7 +226,7 @@
                 <div class="features-item text-center mb-30">
                     <div class="features-count">04</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon04.png') }}" alt="">
+                        <i class="fal fa-guitar" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Concerts &amp; Gatherings</h3>
@@ -238,7 +238,7 @@
                 <div class="features-item text-center mb-30">
                     <div class="features-count">05</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon05.png') }}" alt="">
+                        <i class="fal fa-users" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Fellowship &amp; Networking</h3>
@@ -250,7 +250,7 @@
                 <div class="features-item text-center mb-30">
                     <div class="features-count">06</div>
                     <div class="features-icon mb-25">
-                        <img src="{{ asset('assets/img/icon/features_icon06.png') }}" alt="">
+                        <i class="fal fa-theater-masks" aria-hidden="true"></i>
                     </div>
                     <div class="features-content">
                         <h3>Creative Platforms</h3>
@@ -396,13 +396,13 @@
             <div class="col-xl-8 col-lg-7">
                 <div class="video-active">
                     <div class="video-item">
-                        <img src="{{ asset('assets/img/images/video_img01.png') }}" alt="">
-                        <a href="https://www.youtube.com/watch?v=vkNcyKbRgqY" class="popup-video ripple-white"><i class="fas fa-play"></i></a>
+                        <img src="{{ asset('assets/img/images/20260902_111330.png') }}" alt="">
+                        {{-- <a href="https://www.youtube.com/watch?v=vkNcyKbRgqY" class="popup-video ripple-white"><i class="fas fa-play"></i></a> --}}
                     </div>
-                    <div class="video-item">
+                    {{-- <div class="video-item">
                         <img src="{{ asset('assets/img/images/video_img02.png') }}" alt="">
                         <a href="https://www.youtube.com/watch?v=vkNcyKbRgqY" class="popup-video ripple-white"><i class="fas fa-play"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -566,7 +566,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="faq-img-wrap">
-                    <img src="{{ asset('assets/img/images/faq_img.png') }}" alt="">
+                    <img src="{{ asset('assets/img/images/20260902_111444.png') }}" alt="">
                     <div class="img-shape"></div>
                 </div>
             </div>
@@ -581,7 +581,7 @@
 <section id="lol" class="shop-details-area protein-shop pt-120 pb-120">
     <div class="container">
         <div class="row align-items-center justify-content-center">
-            <div class="col-5">
+            <div class="col-6">
                 <div class="section-title protein-title mb-30">
                     <h6 class="sub-title">New For 2024</h6>
                     <h2 class="title">MCF L.O.L.<span>.</span></h2>
@@ -600,51 +600,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-7">
-                <div class="shop-details-img-wrap">
-                    <div class="tab-content" id="myTabContentTwo">
-                        <div class="tab-pane show active" id="details-thumb01" role="tabpanel" aria-labelledby="details-thumb01-tab">
-                            <div class="shop-details-img">
-                                <img src="{{ asset('assets/img/product/shop_details_img01.png') }}" alt="">
-                                <div class="img-shape"></div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="details-thumb02" role="tabpanel" aria-labelledby="details-thumb02-tab">
-                            <div class="shop-details-img">
-                                <img src="{{ asset('assets/img/product/shop_details_img02.png') }}" alt="">
-                                <div class="img-shape"></div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="details-thumb03" role="tabpanel" aria-labelledby="details-thumb03-tab">
-                            <div class="shop-details-img">
-                                <img src="{{ asset('assets/img/product/shop_details_img03.png') }}" alt="">
-                                <div class="img-shape"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="nav nav-tabs shop-details-nav-wrap" id="myTabTwo" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a href="#" class="nav-link active" id="details-thumb01-tab" data-bs-toggle="tab" data-bs-target="#details-thumb01" role="tab" aria-controls="details-thumb01" aria-selected="true">
-                                <img src="{{ asset('assets/img/product/sd_nav_img01.png') }}" alt="">
-                                <div class="img-shape"></div>
-                                <span class="rating"><i class="fas fa-star"></i>4.9</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a href="#" class="nav-link" id="details-thumb02-tab" data-bs-toggle="tab" data-bs-target="#details-thumb02" role="tab" aria-controls="details-thumb02" aria-selected="false">
-                                <img src="{{ asset('assets/img/product/sd_nav_img02.png') }}" alt="">
-                                <div class="img-shape"></div>
-                                <span class="rating"><i class="fas fa-star"></i>4.5</span>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a href="#" class="nav-link" id="details-thumb03-tab" data-bs-toggle="tab" data-bs-target="#details-thumb03" role="tab" aria-controls="details-thumb03" aria-selected="false">
-                                <img src="{{ asset('assets/img/product/sd_nav_img03.png') }}" alt="">
-                                <div class="img-shape"></div>
-                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="col-lg-6">
+                <div class="faq-img-wrap">
+                    <img src="{{ asset('assets/img/images/20260902_112159.png') }}" alt="">
+                    <div class="img-shape"></div>
                 </div>
             </div>
         </div>
@@ -653,93 +612,57 @@
 <!-- shop-details-area-end -->
 
 <!-- contact-area -->
-<section id="contact" class="contact-area pt-120 pb-120 gray-bg">
+<section id="contact" class="contact-area protein-features pt-120 pb-90 gray-bg">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8">
+            <div class="col-xl-7 col-lg-9">
                 <div class="section-title protein-title text-center mb-50">
                     <div class="overlay-title">Contact</div>
-                    <h6 class="sub-title">Sponsor &middot; Advertise &middot; Volunteer</h6>
-                    <h2 class="title">Get In Touch</h2>
+                    <h6 class="sub-title">Sponsor &middot; Advertise &middot; Volunteer &middot; Minister</h6>
+                    <h2 class="title">Talk To Us</h2>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                @include('web.pages.status.status')
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-9">
+                <a class="features-item contact-card text-center mb-30" href="tel:+447961221117">
+                    <div class="features-icon mb-25"><i class="fal fa-phone" aria-hidden="true"></i></div>
+                    <div class="features-content">
+                        <h3>Call Us</h3>
+                        <p class="contact-value">+44 7961 221117</p>
+                        <span class="contact-hint">Tap to call</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-9">
+                <a class="features-item contact-card text-center active mb-30" href="mailto:info@mcf-scotland.com">
+                    <div class="features-icon mb-25"><i class="fal fa-envelope-open-text" aria-hidden="true"></i></div>
+                    <div class="features-content">
+                        <h3>Email Us</h3>
+                        <p class="contact-value">info@mcf-scotland.com</p>
+                        <span class="contact-hint">We reply within a few days</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-9">
+                <div class="features-item contact-card text-center mb-30">
+                    <div class="features-icon mb-25"><i class="fal fa-map-marked-alt" aria-hidden="true"></i></div>
+                    <div class="features-content">
+                        <h3>Find Us</h3>
+                        <p class="contact-value">Edinburgh, Scotland</p>
+                        <span class="contact-hint">Where the vision began, in 2010</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="contact-form-wrap">
-                    @php
-                        // contactStore() compares the posted value against session('captcha'),
-                        // so the code is generated and stashed here when the form renders.
-                        // The visitor reads it off the page and types it back in.
-                        $captchaCode = captcha_code(5);
-                        session()->put('captcha', $captchaCode);
-                    @endphp
-                    {{-- id is deliberately NOT "contact-form": assets/js/ajax-form.js binds to that id,
-     hijacks submit and POSTs to a hardcoded inc/contact.php that does not exist here.
-     validator.js auto-inits on form[data-toggle="validator"], so validation still runs. --}}
-                    <form id="mcf-contact-form" class="contact-form" method="POST" action="{{ route('submit.contact') }}" data-toggle="validator">
-                        @csrf
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-grp">
-                                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter full name" required="required" data-error="Name is required.">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="fal fa-user"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-grp">
-                                    <input type="email" name="email" value="{{ old('email') }}" placeholder="Enter your email" required="required" data-error="Email is required.">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-grp">
-                                    <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Phone number" required="required" data-error="Phone is required.">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="fal fa-phone"></i>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-grp">
-                                    <select name="subject" class="form-select custom-select" required="required" data-error="Please choose a subject.">
-                                        <option value="" selected disabled>What is this about?</option>
-                                        <option value="Sponsorship">I want to sponsor the festival</option>
-                                        <option value="Advertising">I want to advertise in the programme</option>
-                                        <option value="Volunteering">I want to volunteer</option>
-                                        <option value="Ministering">I want to minister</option>
-                                        <option value="Partnership">Church or organisation partnership</option>
-                                        <option value="General">General enquiry</option>
-                                    </select>
-                                    <i class="fal fa-arrow-down"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-grp">
-                            <textarea name="message" id="message" placeholder="Tell us a little more" required="required" data-error="Message is required.">{{ old('message') }}</textarea>
-                            <div class="help-block with-errors"></div>
-                            <i class="fal fa-pencil"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="form-grp captcha-grp">
-                                    <span class="captcha-code" aria-hidden="true">{{ $captchaCode }}</span>
-                                    <a class="captcha-refresh" href="{{ url('/') }}#contact" title="Get a new code" aria-label="Get a new code"><i class="fal fa-redo"></i></a>
-                                    <input type="text" name="captcha" autocomplete="off" spellcheck="false"
-                                           placeholder="Type the code" aria-label="Type the code shown"
-                                           required="required" data-error="Please enter the code.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn protein-btn">Send Message <i class="fal fa-arrow-right"></i></button>
-                    </form>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-9">
+                <div class="contact-note text-center">
+                    <p>Whether you would like to <strong>sponsor the festival</strong>, <strong>advertise in the
+                    programme</strong>, <strong>volunteer</strong> or <strong>minister with us</strong>, reach out on any
+                    of the above and tell us which. We would love to hear from you.</p>
                 </div>
             </div>
         </div>

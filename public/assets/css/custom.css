@@ -97,149 +97,6 @@
 	color: #12294b;
 }
 
-/* Contact form ------------------------------------------------------------ */
-/*
- * The template styles these fields as borderless white blocks, which worked on
- * its own grey page but makes them invisible on our white card. Give them a
- * real, rounded, visible boundary.
- */
-.contact-area .contact-form-wrap {
-	background: #fff;
-	padding: 45px 40px;
-	border-radius: 10px;
-	box-shadow: 0 18px 40px -24px rgba(12, 26, 51, .25);
-}
-
-.contact-form-wrap .form-grp input,
-.contact-form-wrap .form-grp textarea,
-.contact-form-wrap .form-grp .custom-select {
-	border: 1px solid #d8dfea;
-	border-radius: 10px;
-	background: #fbfcfe;
-	padding: 18px 52px 18px 20px;
-	color: #12294b;
-	transition: border-color .18s, box-shadow .18s, background .18s;
-}
-
-.contact-form-wrap .form-grp .custom-select {
-	height: auto;
-	width: 100%;
-	appearance: none;
-	-webkit-appearance: none;
-}
-
-.contact-form-wrap .form-grp input:hover,
-.contact-form-wrap .form-grp textarea:hover,
-.contact-form-wrap .form-grp .custom-select:hover {
-	border-color: #b6c4da;
-}
-
-.contact-form-wrap .form-grp input:focus,
-.contact-form-wrap .form-grp textarea:focus,
-.contact-form-wrap .form-grp .custom-select:focus {
-	outline: none;
-	background: #fff;
-	border-color: #12294b;
-	box-shadow: 0 0 0 3px rgba(18, 41, 75, .12);
-}
-
-/* icons sit inside the new padding */
-.contact-form-wrap .form-grp i {
-	right: 20px;
-	top: 21px;
-	color: #7c8aa3;
-	pointer-events: none;
-}
-
-/* 260px of empty box was most of the screenshot */
-.contact-form-wrap .form-grp textarea {
-	min-height: 150px;
-	max-height: 320px;
-	padding-top: 16px;
-	resize: vertical;
-}
-
-/* validation messages read as errors, and sit with their field */
-.contact-form-wrap .help-block.with-errors {
-	color: #a6342f;
-	font-size: 13.5px;
-	text-align: left;
-	margin-top: 6px;
-}
-.contact-form-wrap .help-block.with-errors ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-/* Captcha ----------------------------------------------------------------- */
-.contact-form-wrap .captcha-grp {
-	display: flex;
-	align-items: center;
-	gap: 12px;
-	flex-wrap: wrap;
-}
-
-.contact-form-wrap .captcha-grp .captcha-code {
-	flex: none;
-	display: inline-block;
-	padding: 16px 22px;
-	border-radius: 10px;
-	background: linear-gradient(135deg, #12294b 0%, #1e4a87 100%);
-	color: #fff;
-	font-family: "Courier New", ui-monospace, monospace;
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: .34em;
-	text-indent: .34em;
-	line-height: 1.2;
-	user-select: none;
-	transform: skewX(-6deg);
-}
-
-.contact-form-wrap .captcha-grp .captcha-refresh {
-	flex: none;
-	display: grid;
-	place-items: center;
-	width: 42px;
-	height: 42px;
-	border-radius: 50%;
-	border: 1px solid #d8dfea;
-	color: #12294b;
-	font-size: 15px;
-	transition: background .18s, color .18s;
-}
-.contact-form-wrap .captcha-grp .captcha-refresh:hover,
-.contact-form-wrap .captcha-grp .captcha-refresh:focus-visible {
-	background: #12294b;
-	color: #fff;
-}
-/* the refresh control is a real icon, not the decorative field icon */
-.contact-form-wrap .captcha-grp .captcha-refresh i {
-	position: static;
-	color: inherit;
-}
-
-.contact-form-wrap .captcha-grp input {
-	flex: 1 1 160px;
-	min-width: 0;
-	padding-right: 20px;
-}
-
-.contact-form-wrap .captcha-grp .help-block.with-errors {
-	flex: 1 0 100%;
-}
-
-@media (max-width: 575px) {
-	.contact-area .contact-form-wrap {
-		padding: 30px 22px;
-	}
-	.contact-form-wrap .captcha-grp .captcha-code {
-		font-size: 19px;
-		padding: 14px 18px;
-	}
-}
-
 /* Line-up portraits -------------------------------------------------------- */
 /*
  * Supplied photos arrive at wildly different ratios (a 1600x1195 studio shot
@@ -359,5 +216,66 @@
 
 @supports not (aspect-ratio: 4 / 3) {
 	.gallery-product-item img { height: 260px; }
+}
+
+/* Sub-title on dark sections ---------------------------------------------- */
+/*
+ * .white-title only recolours .title. The sub-title keeps the brand accent,
+ * which was a light cyan in the original theme and is now navy — invisible on
+ * the #222 video band. Lift it to a light tint of the same hue.
+ */
+.section-title.white-title .sub-title {
+	color: #9fc0ee;
+}
+
+/* Mandate icons ------------------------------------------------------------ */
+/* .features-icon was built around an 80px image; these are glyphs now */
+.features-icon i {
+	font-size: 54px;
+	line-height: 1;
+	color: #12294b;
+	transition: color .3s ease, transform .3s ease;
+}
+.features-item:hover .features-icon i,
+.features-item.active .features-icon i {
+	color: #1e4a87;
+	transform: translateY(-3px);
+}
+
+/* Contact cards ------------------------------------------------------------ */
+/* Reuses the mandate card so the two sections read as one system */
+.contact-card {
+	display: block;
+	height: calc(100% - 30px);
+	text-decoration: none;
+	color: inherit;
+}
+.contact-card .contact-value {
+	font-size: 18px;
+	font-weight: 600;
+	color: #12294b;
+	margin-bottom: 6px;
+	word-break: break-word;
+}
+.contact-card .contact-hint {
+	font-size: 14px;
+	color: #6b7890;
+}
+a.contact-card:hover .contact-value,
+a.contact-card:focus-visible .contact-value {
+	color: #1e4a87;
+}
+a.contact-card:focus-visible {
+	outline: 2px solid #12294b;
+	outline-offset: 3px;
+}
+
+.contact-note {
+	max-width: 760px;
+	margin: 20px auto 0;
+}
+.contact-note p {
+	color: #55637c;
+	margin: 0;
 }
 
