@@ -279,3 +279,61 @@ a.contact-card:focus-visible {
 	margin: 0;
 }
 
+/* Contrast repairs on dark grounds ----------------------------------------- */
+/*
+ * The theme used a light cyan accent, which read fine on the dark footer and
+ * video band. Navy does not. These are the places where the accent is used as
+ * a text colour over something dark — lift them to a light tint of the brand.
+ */
+.protein-footer .fw-link > ul > li > a:hover,
+.protein-footer .fw-link > ul > li > a:focus-visible,
+.protein-footer .footer-quick-link ul li a:hover,
+.protein-footer .footer-quick-link ul li a:focus-visible {
+	color: #9fc0ee;
+}
+
+/* Card hover panel --------------------------------------------------------- */
+/*
+ * .features-item::before paints the dark hover panel at z-index:-1, and the
+ * text flips to white to sit on it. Without a stacking context on the card the
+ * panel falls behind the SECTION background, so on any tinted section the text
+ * turned white on a light ground and vanished. z-index:1 scopes it to the card.
+ */
+.features-item {
+	z-index: 1;
+}
+
+/* icon has to lift off the dark panel too */
+.features-item:hover .features-icon i,
+.features-item.active .features-icon i {
+	color: #9fc0ee;
+}
+.contact-card:hover .contact-value,
+.contact-card.active .contact-value {
+	color: #fff;
+}
+.contact-card:hover .contact-hint,
+.contact-card.active .contact-hint {
+	color: #b5b5b5;
+}
+
+/* Avatar placeholder for line-up cards without a photo ---------------------- */
+/* Same square footprint as a real portrait so the grid never shifts */
+.lineup-avatar {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	display: grid;
+	place-items: center;
+	background: linear-gradient(135deg, #eef3fa 0%, #dce5f2 100%);
+	border-radius: 8px 8px 0 0;
+	color: #9bb0cc;
+}
+.lineup-avatar i {
+	font-size: 76px;
+	line-height: 1;
+}
+
+@supports not (aspect-ratio: 1 / 1) {
+	.lineup-avatar { height: 340px; }
+}
+

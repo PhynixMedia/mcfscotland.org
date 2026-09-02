@@ -279,13 +279,18 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/sophie-fey', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="Ololade Ajiwo - Sophie Fey">
+                        @php $portrait = image_by_stem('assets/img/lineup/sophie-fey'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="Sophie Fey">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="Sophie Fey"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>The Convener</span>
                         </div>
                     </div>
                     <div class="blog-post-content">
-                        <h4 class="title">Ololade Ajiwo &mdash; Sophie Fey</h4>
+                        <h4 class="title">Sophie Fey</h4>
                         <p>Convener of Maranatha Christ Festival and the visionary behind its journey since inception. Founder of Real Women of Purpose International.</p>
                     </div>
                 </div>
@@ -293,7 +298,12 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/funmi-aragbaiye', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Evang. (Dr.) Funmi Aragbaiye">
+                        @php $portrait = image_by_stem('assets/img/lineup/funmi-aragbaiye'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="Evang. (Dr.) Funmi Aragbaiye">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="Evang. (Dr.) Funmi Aragbaiye"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>Life Patron &amp; Matron</span>
                         </div>
@@ -307,7 +317,12 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/mike-abdul', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Rev. Mike Abdul">
+                        @php $portrait = image_by_stem('assets/img/lineup/mike-abdul'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="Rev. Mike Abdul">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="Rev. Mike Abdul"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>Guest Minister</span>
                         </div>
@@ -321,7 +336,12 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/mc-saco', 'assets/img/blog/blog_post_thumb01.jpg') }}" alt="MC SACO">
+                        @php $portrait = image_by_stem('assets/img/lineup/mc-saco'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="MC SACO">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="MC SACO"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>Compere</span>
                         </div>
@@ -335,7 +355,12 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".4s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/michael-whyte', 'assets/img/blog/blog_post_thumb02.jpg') }}" alt="Michael Whyte">
+                        @php $portrait = image_by_stem('assets/img/lineup/michael-whyte'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="Michael Whyte">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="Michael Whyte"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>Ambassador &middot; New York</span>
                         </div>
@@ -349,7 +374,12 @@
             <div class="col-lg-4 col-md-6 col-sm-9">
                 <div class="blog-post-item mb-30 wow fadeInUp" data-wow-delay=".6s">
                     <div class="blog-post-thumb lineup-thumb">
-                        <img src="{{ image_by_stem('assets/img/lineup/ayaba-esther-george', 'assets/img/blog/blog_post_thumb03.jpg') }}" alt="Ayaba Esther George">
+                        @php $portrait = image_by_stem('assets/img/lineup/ayaba-esther-george'); @endphp
+                        @if ($portrait)
+                            <img src="{{ $portrait }}" alt="Ayaba Esther George">
+                        @else
+                            <div class="lineup-avatar" role="img" aria-label="Ayaba Esther George"><i class="fal fa-user" aria-hidden="true"></i></div>
+                        @endif
                         <div class="blog-overlay-tag">
                             <span>Ambassador &middot; UK</span>
                         </div>
