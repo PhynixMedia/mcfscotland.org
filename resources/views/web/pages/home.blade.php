@@ -426,7 +426,7 @@
             <div class="col-xl-8 col-lg-7">
                 <div class="video-active">
                     <div class="video-item">
-                        <img src="{{ asset('assets/img/images/20260902_111330.png') }}" alt="">
+                        <img src="{{ asset('assets/img/images/20260902_142443.png') }}" alt="">
                         {{-- <a href="https://www.youtube.com/watch?v=vkNcyKbRgqY" class="popup-video ripple-white"><i class="fas fa-play"></i></a> --}}
                     </div>
                     {{-- <div class="video-item">

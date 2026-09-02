@@ -337,3 +337,54 @@ a.contact-card:focus-visible {
 	.lineup-avatar { height: 340px; }
 }
 
+/* About section portrait --------------------------------------------------- */
+/*
+ * The theme caps this at max-width:188px (150px on tablets) and sizes the disc
+ * behind it at a fixed 306px, so a small portrait floats inside an oversized
+ * circle. Two changes:
+ *
+ *  1. The cap is raised. An <img> with only max-width set never scales ABOVE
+ *     its natural size, so a small file still renders sharp at 1:1 — the cap
+ *     simply stops being the limit once a larger file is supplied.
+ *  2. The disc is sized as a PERCENTAGE of the portrait rather than a fixed
+ *     pixel value, so the composition stays balanced at any image size.
+ */
+.choose-img {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.choose-img .main-img {
+	max-width: 460px;
+	width: auto;
+	height: auto;
+	position: relative;
+	z-index: 2;
+}
+
+.choose-img .shape {
+	width: 150%;
+	max-width: none;
+	height: auto;
+	z-index: 0;
+}
+
+@media (max-width: 1199px) {
+	.choose-img .main-img { max-width: 340px; }
+}
+
+@media (max-width: 991px) {
+	/* back into the flow once the two columns stack */
+	.choose-img {
+		position: relative;
+		left: auto;
+		right: auto;
+		top: auto;
+		transform: none;
+		margin-top: 50px;
+	}
+	.choose-img .main-img { max-width: 300px; }
+}
+
