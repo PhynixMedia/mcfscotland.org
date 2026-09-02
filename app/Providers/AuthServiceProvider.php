@@ -26,8 +26,8 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //Laravel Passport
-        Passport::routes();
-        Passport::personalAccessTokensExpireIn(now()->addHour(1));
+        // Passport 11 removed Passport::routes(); the package registers its own
+        // routes now. Token lifetimes are still configured here.
+        Passport::personalAccessTokensExpireIn(now()->addHour());
     }
 }
