@@ -666,11 +666,11 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9">
-                <a class="features-item contact-card text-center active mb-30" href="mailto:info@mcf-scotland.com">
+                <a class="features-item contact-card text-center active mb-30" href="mailto:info@mcfscotland.org">
                     <div class="features-icon mb-25"><i class="fal fa-envelope-open-text" aria-hidden="true"></i></div>
                     <div class="features-content">
                         <h3>Email Us</h3>
-                        <p class="contact-value">info@mcf-scotland.com</p>
+                        <p class="contact-value">info@mcfscotland.org</p>
                         <span class="contact-hint">We reply within a few days</span>
                     </div>
                 </a>

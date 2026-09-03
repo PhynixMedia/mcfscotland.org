@@ -102,7 +102,7 @@
                                 <ul>
                                     <li><i class="fal fa-phone"></i><a href="tel:+447961221117">+44 7961 221117</a>
                                     </li>
-                                    <li><i class="fal fa-envelope-open-text"></i><a href="mailto:info@mcf-scotland.com">info@mcf-scotland.com</a></li>
+                                    <li><i class="fal fa-envelope-open-text"></i><a href="mailto:info@mcfscotland.org">info@mcfscotland.org</a></li>
                                     <li><i class="fal fa-map-marked-alt"></i>Edinburgh, Scotland</li>
                                 </ul>
                             </div>

@@ -59,7 +59,7 @@
                         <div class="fw-link">
                             <ul>
                                 <li><a href="tel:+447961221117"><i class="fal fa-phone"></i> +44 7961 221117</a></li>
-                                <li><a href="mailto:info@mcf-scotland.com"><i class="fal fa-envelope-open-text"></i> info@mcf-scotland.com</a></li>
+                                <li><a href="mailto:info@mcfscotland.org"><i class="fal fa-envelope-open-text"></i> info@mcfscotland.org</a></li>
                                 <li><i class="fal fa-map-marked-alt"></i> Edinburgh, Scotland</li>
                             </ul>
                         </div>
