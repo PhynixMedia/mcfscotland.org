@@ -7,7 +7,9 @@ storage/logs/
 public/storage
 # storage/files
 # storage/framework/
-vendor/
+# anchored to the repo root: an unanchored "vendor/" also swallowed
+# public/assets/js/vendor/, which holds the template's jQuery
+/vendor/
 composer.lock
 .phpunit.result.cache
 /.phpunit.cache
