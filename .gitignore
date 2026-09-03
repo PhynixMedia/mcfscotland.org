@@ -16,4 +16,3 @@ composer.lock
 .env
 .env.backup
 .env.*.local
-/bootstrap/cache/*.php
